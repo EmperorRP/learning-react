@@ -12,17 +12,20 @@ import FunctionalCounter from "./components/FunctionalCounter";
 import ConditionalComponent from "./components/ConditionalComponent";
 import ConditionalComponentRendering from "./components/ConditionalComponentRendering";
 import ConditionalRenderingTernary from "./components/ConditionalRenderingTernary";
+import Product from "./components/Product";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      
+      <Form></Form>
 
+      {/* <Product></Product> */}
       {/* <ConditionalRenderingTernary></ConditionalRenderingTernary> // most efficient way to render for simple lines of code
       <ConditionalComponentRendering></ConditionalComponentRendering> // good way to render with variables, efficient for big code
       <ConditionalComponent></ConditionalComponent> // never use this - too many return statements
        */}
-      
+
       {/* <FunctionalCounter /> */}
 
       {/* <Counter></Counter>
